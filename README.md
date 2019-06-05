@@ -1,8 +1,8 @@
 # Virtual Cash Card
 
-Development using Outside-in test-driven development, bearing in mind the CQRS architecture (see DDD with GraphQL Example.pdf) and heading in that direction. 
+Development using Outside-in test-driven development, bearing in mind the CQRS architecture (see DDD with GraphQL Example.pdf). 
 
-At moment this only covers the command and and in memory Domain repository.
+At moment this only covers the command and uses an in memory Domain repository.
 
 ## Running Virtual Cash Card
 
