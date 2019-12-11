@@ -4,6 +4,8 @@ Development using Outside-in test-driven development, bearing in mind the CQRS a
 
 At moment this only covers the command and uses an in memory Domain repository.
 
+https://github.com/cbrown11/VirtualCashCard/blob/master/DDD%20with%20GraphQL%20Example.pdf
+
 ## Running Virtual Cash Card
 
 version .net core 2.2 is required
@@ -14,8 +16,8 @@ version .net core 2.2 is required
 
 ## Future
 
-1. Domain Repository - Use Greg Young’s database for the event sourcing. Instead of In memory EventStore. Switchable via config file.
+1. Domain Repository - Use Greg Youngâ€™s database for the event sourcing. Instead of In memory EventStore. Switchable via config file.
 2. Create a GraphlQL Gateway (with pub/sub). The quick virtual ATM machine could be changed to use this instead. ATDD driven by Specflow. (Including Playground and Voyager)
 3. Create a better view or emulator in React/View/Angular, which will use GraphlQL Gateway. Can use Storybook if using react for testing
 4. Use a proper Message Transporter (RabbitMQ, SQLServer, MSMQ). Switchable via config file.
-5. Create a read model using ElasticSearch. Though could use projections from Greg Young’s database (though not recommended )
+5. Create a read model using ElasticSearch. Though could use projections from Greg Youngâ€™s database (though not recommended )
